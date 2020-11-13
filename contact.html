@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sharmila Ratnasingam Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="css/style.production.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+</head>
+
+<body>
+  <header class="page-header">
+      <a href="index.html"> <img src="img/sr.jpg" width="45" height="45" alt="sr logo" /></a>  
+    <nav class="main-navigation page-header__item">
+      <ul role="menubar" class="navigation-list">
+        <li role="presentation">
+          <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+        </li>
+        <li role="presentation">
+          <a href="about.html" role="menuitem" class="navigation-list__item ">About Me</a>
+        </li>
+        <li role="presentation">
+          <a href="contact.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Contact</a>
+        </li>
+
+        <li role="presentation">
+          <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="flex"> 
+      <div class="colm">
+        <div class="common-col">
+          <form action="http://example.com/" method="post" id="contact-form">
+            <label class="standard-label" for="contact-email">E-mail: </label>
+            <input class="form-control" type="email" id="contact-email" required /><br><br>
+      
+            <label class="standard-label" for="contact-tel">Telephone: </label>
+            <input class="form-control" type="tel" id="contact-tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" /><br><br>
+      
+            <label class="standard-label" for="contact-message">Message: </label>
+            <textarea class="form-control" id="contact-message" required maxlength="240"></textarea><br>
+            <br>
+            <input type="submit" value="Send Message" />
+          </form>
+        </div>
+      </div>
+      <div class="colm">
+        <div class="common-col">
+          <div>
+            My contact<br>
+            Sharmila Ratnasingam<br>
+            Granaveien 3<br>
+            2007 Kjeller<br>
+            <br>
+            Tel <a href="tel:+47-90104261">My phone number +47 90104261 </a><br><br>
+            Skype <a href="skype:live:sharmila_39">Sharmila Ratnasingam</a><br><br>
+            Email<a href="mailto:sharmila@live.no">sharmila@live.no</a>
+            <br>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
+    
+  </div>
+  <footer class="page-footer">
+    <div class="socal-links">
+      <a href="https://github.com/" target="_blank">
+        <img src="img/git.svg" alt="Github">
+      </a>
+      <a href="https://www.facebook.com/sharmila.ratnasingam" target="_blank">
+        <img src="img/twitter.svg" alt="Twitter">
+      </a>
+      
+      <a href="https://www.linkedin.com/feed/" target="_blank">
+        <img src="img/linkedin.svg" alt="LinkedIn">
+      </a>
+    </div>
+  </footer>
+  <script src="js/tota11y.min.js"></script>
+</body>
+
+</html>
